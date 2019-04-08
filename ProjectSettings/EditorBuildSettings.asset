@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/MoveYourAssTeroids/AsteroidsImplementation/Scene/StartMenu.unity
+    guid: 0863846a0a0ef094ba809beed12ac1f6
+  - enabled: 1
     path: Assets/MoveYourAssTeroids/CCC/Scenes/SampleScene.unity
     guid: cb646c4962a7872429bfc7272b1df636
   - enabled: 1
-    path: Assets/MoveYourAssTeroids/CCC/Scenes/SampleScenePlus.unity
+    path: Assets/MoveYourAssTeroids/AsteroidsImplementation/Scene/SampleScenePlus.unity
     guid: b40a2d938eb009b4599b5fc6ddc53992
   m_configObjects: {}
