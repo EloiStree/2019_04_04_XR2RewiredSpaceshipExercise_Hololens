@@ -12,6 +12,11 @@ public class StartNextLevelOnClick : MonoBehaviour, IInputHandler
     public void OnInputDown(InputEventData eventData)
     {
         m_nextSceneTriggered = true;
+        LoadNextScene();
+    }
+
+    public void LoadNextScene()
+    {
         SceneManager.LoadScene(m_nextLevelName);
     }
 
